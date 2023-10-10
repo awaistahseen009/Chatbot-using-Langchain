@@ -36,7 +36,7 @@ def get_docs(docs,label):
     return all_text
 
 def get_doc_chunks(doc):
-    splitter=CharacterTextSplitter(separator='\n',chunk_size=1000,chunk_overlap=150,length_function=len)
+    splitter=CharacterTextSplitter(separator='\n',chunk_size=500,chunk_overlap=150,length_function=len)
     text_chunks=splitter.split_text(doc)
     return text_chunks
 

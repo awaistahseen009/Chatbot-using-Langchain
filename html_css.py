@@ -41,7 +41,7 @@ img {
 user_html='''
 <div class="user-card">
        <div class="image">
-        <img src="https://media.licdn.com/dms/image/D4D03AQHDBTSY9IykvQ/profile-displayphoto-shrink_400_400/0/1678539728811?e=1699488000&v=beta&t=Kjh-01AoFXAqzj9cYZRaXQmrKmmeRrDBkCvk5pbQH_E" alt="user-image-here">
+        <img src="https://img.freepik.com/premium-photo/cute-girl-with-red-cloth_807689-498.jpg" alt="user-image-here">
        </div>
         <div class="text">
             <p class="text-para">
