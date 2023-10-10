@@ -24,12 +24,12 @@ serp_api=st.text_input("Enter SERP  api key:", type="password")
 #     func=chat,
 #     description="use when you need to give information about projectName"
 # )
-tools = load_tools(["serpapi"])
 success_api=False
 
 if api_key and serp_api:
     os.environ['OPENAI_API_KEY']=api_key
     os.environ['SERPAPI_API_KEY']=serp_api
+    tools = load_tools(["serpapi"])
 
 if api_key and serp_api:
     pattern = r"^sk-[A-Za-z0-9]+$"
